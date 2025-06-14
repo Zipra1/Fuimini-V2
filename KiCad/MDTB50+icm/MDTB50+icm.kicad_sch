@@ -8139,7 +8139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9962a67-e915-41fb-a8fc-cad555d0020e")
-		(property "Reference" "U3"
+		(property "Reference" "TP1"
 			(at 52.07 35.052 0)
 			(effects
 				(font
@@ -8203,7 +8203,7 @@
 		(instances
 			(project ""
 				(path "/fc39c71d-b4a8-40e7-814c-897ce106e5ba"
-					(reference "U3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

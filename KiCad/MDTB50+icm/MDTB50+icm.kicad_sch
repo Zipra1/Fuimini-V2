@@ -2515,6 +2515,195 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:TPD3E001DRYR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD3E001DRYR"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SON-6_L1.5-W1.0-P0.50-BL_SN74LVC1G19DRYR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C1973987"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD3E001DRYR_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:TXS0102DQER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4545,6 +4734,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 107.95) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e8c48b-7aff-4617-b7af-2284c8532ed7")
+	)
+	(wire
+		(pts
 			(xy 36.83 83.82) (xy 36.83 82.55)
 		)
 		(stroke
@@ -4592,6 +4791,16 @@
 			(type default)
 		)
 		(uuid "681048d9-2f7b-4402-9e9a-b7f0866c3294")
+	)
+	(wire
+		(pts
+			(xy 118.11 146.05) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdf03ef-8ca4-4c9e-970b-ff52bfeef9fb")
 	)
 	(wire
 		(pts
@@ -5005,6 +5214,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 146.05) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be79abac-3ce0-49a5-b062-ff3d397e00ee")
+	)
+	(wire
+		(pts
 			(xy 130.81 59.69) (xy 130.81 60.96)
 		)
 		(stroke
@@ -5115,7 +5334,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 162.56 116.84)
+			(xy 162.56 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5542,7 @@
 		)
 		(uuid "4b95c8da-95de-47e0-8b4b-45582351a220")
 	)
-	(text "C1n1 being used for charger :shrug:"
+	(text "C1n1 being used for charger\nI dont wanna move it. ( ⓛ ω ⓛ *)"
 		(exclude_from_sim no)
 		(at 43.434 89.662 0)
 		(effects
@@ -5861,6 +6080,28 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape input)
+		(at 119.38 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "666dd770-42b7-4829-b511-b60caa00ac12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.5524 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_CHASSIS"
 		(shape input)
 		(at 130.81 179.07 270)
@@ -5923,6 +6164,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 119.38 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d511445-1556-419d-8ca3-6eb7ef239172")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.5524 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 139.7 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71c54d2b-968a-4008-b8e9-c318e4c73ae4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5838 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6336,28 +6621,6 @@
 		(uuid "ce340213-61fb-4d2b-bd30-9bf20107fd06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.3376 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAG_EN"
-		(shape input)
-		(at 165.1 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2746b64-0c7f-43f5-b1e5-85ad5afee2c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3423 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,6 +10651,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a55a76c3-7cb7-4a62-b8dd-33a7bf0f00c7")
+		(property "Reference" "#PWR047"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c3c712a-f519-4127-ae85-f8adedafeb15")
+		)
+		(instances
+			(project "MDTB50+icm"
+				(path "/fc39c71d-b4a8-40e7-814c-897ce106e5ba"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mag_custom:QMC6309")
 		(at 152.4 85.09 0)
 		(unit 1)
@@ -11340,6 +11669,95 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TPD3E001DRYR")
+		(at 129.54 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66cb852-bff8-4097-be0a-e440da5bf132")
+		(property "Reference" "D1"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD3E001DRYR"
+			(at 129.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SON-6_L1.5-W1.0-P0.50-BL_SN74LVC1G19DRYR"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1973987"
+			(at 129.54 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "40a56824-4d5b-4c3b-9293-948bcbc4135a")
+		)
+		(pin "1"
+			(uuid "08480f06-76a7-4408-955c-b892813cb1e0")
+		)
+		(pin "6"
+			(uuid "09ff7e8d-1909-4209-bf32-734630746389")
+		)
+		(pin "2"
+			(uuid "bce88c3d-859f-4ce3-ae90-66101d378e15")
+		)
+		(pin "3"
+			(uuid "6a41b865-43df-468f-ac03-e0ae7d411501")
+		)
+		(pin "5"
+			(uuid "98ff6e83-876c-4e2f-a580-a82a815fd4e1")
+		)
+		(instances
+			(project ""
+				(path "/fc39c71d-b4a8-40e7-814c-897ce106e5ba"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 78.74 0)
 		(unit 1)
@@ -12031,6 +12449,71 @@
 			(project "MDTB50+icm"
 				(path "/fc39c71d-b4a8-40e7-814c-897ce106e5ba"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd57824d-a793-4470-a30c-b577d9aa3aee")
+		(property "Reference" "#PWR042"
+			(at 118.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0ab4c55-9e77-4602-a51e-65fb2913c3a1")
+		)
+		(instances
+			(project "MDTB50+icm"
+				(path "/fc39c71d-b4a8-40e7-814c-897ce106e5ba"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

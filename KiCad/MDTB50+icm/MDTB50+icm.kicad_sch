@@ -9651,8 +9651,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 240.03 50.8 0)
+		(property "Value" "SX2M32.768KM20F30TNN"
+			(at 240.03 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10797,7 +10797,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac6380da-8da1-4424-8191-e736ecc2b722")
 		(property "Reference" "#PWR026"
 			(at 248.92 55.88 0)
@@ -10809,7 +10808,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 248.92 46.99 0)
+			(at 252.73 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('TC2030.STEP',
+    '2025-06-21T22:38:17',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2024',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#2 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#3 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #2 ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = PRODUCT_CONTEXT ( 'NONE', #2, 'mechanical' ) ;
+#6 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #8 ) ) ;
+#7 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #9 ) ;
+#8 = PRODUCT ( 'TC2030', 'TC2030', '', ( #5 ) ) ;
+#9 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #11, #10 ) ;
+#10 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #4, 'design' ) ;
+#11 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #8, .NOT_KNOWN. ) ;
+ENDSEC;
+END-ISO-10303-21;

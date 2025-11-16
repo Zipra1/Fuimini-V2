@@ -5611,6 +5611,12 @@
 		(uuid "28e88d7e-65fd-47cd-8fab-8d7fb1159ab0")
 	)
 	(junction
+		(at 100.33 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aca690c-f047-436a-ad7d-33657aaf8e48")
+	)
+	(junction
 		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5735,6 +5741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9542c5c-f1cc-45a9-aee4-dc3bcaf5d378")
+	)
+	(junction
+		(at 100.33 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35a4d5c-dc8f-4ba1-9ef7-cc81f28576d6")
 	)
 	(junction
 		(at 116.84 146.05)
@@ -7258,6 +7270,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 128.27) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7df1199-9a35-4ad2-a643-40254dd6142d")
+	)
+	(wire
+		(pts
 			(xy 67.31 118.11) (xy 67.31 120.65)
 		)
 		(stroke
@@ -7585,6 +7607,16 @@
 			(type default)
 		)
 		(uuid "fe4b4eae-3541-4753-9f44-dad0a6db281b")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd14026-079c-4f7a-bae2-da9de5c234dc")
 	)
 	(global_label "DCEN"
 		(shape input)
@@ -9974,7 +10006,7 @@
 		(dnp no)
 		(uuid "13f953a4-a734-479f-bb71-ebf561d321d3")
 		(property "Reference" "C1n2"
-			(at 144.272 126.492 0)
+			(at 144.78 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +10015,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 144.018 124.46 0)
+			(at 144.526 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12225,7 @@
 		(dnp no)
 		(uuid "63453504-a118-4a84-a010-e5dbd8803676")
 		(property "Reference" "C1n3"
-			(at 98.298 124.968 0)
+			(at 98.806 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12234,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 98.552 127 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,6 +12491,75 @@
 			(project "nrf52833-Module"
 				(path "/7f675c71-ed66-43d9-81bf-09a8e18818c7"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 96.52 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "660b9b59-3400-4d7f-9f9f-5f0230d9b1e4")
+		(property "Reference" "C1n5"
+			(at 99.06 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 99.314 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "beaLib:C_0402_JLC"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "563a7967-4c47-4ee8-8011-07cfb7602f01")
+		)
+		(pin "2"
+			(uuid "a9dbb8f6-758e-419e-a105-7e3d706efec3")
+		)
+		(instances
+			(project "Fuimini-V2"
+				(path "/7f675c71-ed66-43d9-81bf-09a8e18818c7"
+					(reference "C1n5")
 					(unit 1)
 				)
 			)

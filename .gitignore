@@ -30,6 +30,8 @@ fp-info-cache
 # Backups folder
 /KiCad/MDTB50+icm/MDTB50+icm-backups
 /KiCad/MDTB50+icm/production/backups
+/KiCad/Fuimini-V2-backups/*.zip
+
 
 # Lock
 *.lck
@@ -37,3 +39,6 @@ fp-info-cache
 # Stuff that isn't mine
 /MDBT50 footprint
 /MDBT50 Footprint_Design Guide-221129
+
+# Skill check
+/KiCad/Panel

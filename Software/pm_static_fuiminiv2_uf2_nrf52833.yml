@@ -1,0 +1,20 @@
+bootloader:
+  address: 0x0
+  size: 0x1000
+
+# dunno if these are the right addresses for such things (*￣3￣)╭ but it works
+app:
+  address: 0x1000
+  end_address: 0x6e000
+  region: flash_primary
+
+storage:
+  address: 0x6e000
+  size: 0x6000
+  region: flash_primary
+
+uf2_bootloader:
+  address: 0x74000
+  end_address: 0x80000
+  size: 0xc000
+  region: flash_primary
